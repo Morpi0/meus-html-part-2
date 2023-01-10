@@ -1,0 +1,48 @@
+22.html:
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+<form>
+    <input type="checkbox">
+    <input type="file">
+    <input type="number" placeholder="number">
+    <input type="reset">
+    <input type="url" placeholder="URL">
+</form>
+</body>
+</html>
+
+
+
+
+imageembola:
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem em bola</title>
+</head>
+<body style="background-color: rgb(100, 37, 37);">
+    
+
+   <img src="/mqdefault.jpg" style="border-radius: 90%;" height="250px" width="260px" alt="">
+<br>
+<br>
+<a href="/22.html">link 22</a>
+
+</body>
+</html>

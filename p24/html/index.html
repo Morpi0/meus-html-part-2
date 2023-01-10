@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P24 - colgroup</title> <!-- ele é bom para modificar grupos dentro de uma tabela-->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        caption {
+            font-size: medium;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        /* ColGroup  */
+
+col.Cnome {/*tabela 1*/
+    background-color: rgb(148, 231, 14);
+}
+col.Cidade {/*tabela 2*/
+    background-color: rgb(161, 142, 247);
+}
+col.Csexo {/*tabela 3*/
+    background-color: rgb(231, 97, 97);
+}
+col.C_ID {/*tabela 4*/
+    background-color: rgb(10, 104, 107);
+}
+    </style>
+</head>
+<body>
+    <h1> exercicio em tabela</h1>
+
+
+    <table>
+        <colgroup> <!-- se conecta com o th e afeta o td da tabela-->
+            <col class="Cnome">
+            <col class="Cidade">
+            <col class="Csexo">
+            <col class="C_ID">
+        </colgroup>
+    
+        <caption>cadastro</caption> <!-- é como se fosse um titulo de tabela-->
+        <tr> <!--conexão com o colgroup-->
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">ID</th>
+        </tr>
+        <!-- informações de pessoas-->
+        <tr>
+            <td>joão</td>
+            <td>29</td>
+            <td>M</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>carlos</td>
+            <td>10</td>
+            <td>M</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>yoshikage kira</td>
+            <td>35</td>
+            <td>M</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>20</td>
+            <td>F</td>
+            <td>4</td>
+        </tr>
+
+    </table>
+</body>
+</html>

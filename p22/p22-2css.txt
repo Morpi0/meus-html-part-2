@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    background-color: aqua;
+    transition-property: background-color; /* escolhe a propriedade que vai ser animada */
+    transition-duration: 2s;
+}
+
+body:hover {
+    background-color: chartreuse;
+}
+
+
+.b {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+
+    transition-property: background-color, border-radius, transform; /* escolhe a propriedade que vai ser animada */
+    transition-duration: 2s;
+
+    /*transition-timing-function: ease-in; */   /* suaviza no inicio */
+
+   /* transition-timing-function: ease-out; */  /*suaviza o final da animação */
+
+   /*transition-timing-function: ease-in-out; */  /* mistura o ease in e o ease out */
+
+   transition-timing-function: cubic-bezier(.15,.89,.85,.26) ;  /*possivel customizar pontos da animação */
+}
+/* o hover tem que ta grudado se não falha*/
+.b:hover {
+    background-color: brown;
+    border-radius: 50%;
+    transform: rotate(0.5turn);
+}

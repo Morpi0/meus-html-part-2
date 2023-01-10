@@ -1,0 +1,79 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(62, 78, 78);
+}
+
+#box1 {
+    border: 3px solid black;
+}
+
+#imagem {
+    border-radius: 50%;
+}
+
+
+
+
+
+#box2 {
+    border: 3px solid black;
+}
+
+#imagem1 {
+    border-radius: 50%;
+    /*transform: translateX(100px);
+    transform: translateY(100px);
+    */
+    /*100 = x -101 = y*/
+    transform: translate(100px, -101px);
+}
+
+
+
+
+
+#box3 {
+    border: 3px solid black;
+}
+
+#imagem2 {
+    border-radius: 50%;
+    transform: scale(1.20);
+}
+
+#imagem999 {
+    transform: scaleX(2);
+}
+
+
+
+
+
+#box4 {
+    border: 3px solid black;
+}
+
+#imagem3 {
+    transform: scaleY(2);
+    border-radius: 50%;
+}
+
+/* também é possivel usar so o scale para aumentar tudo numa imagem, ou diminuir */
+
+
+
+
+
+#box5 {
+    border: 3px solid black;
+    
+}
+
+#imagem4 {
+    /*transform: rotate(46deg); */
+    /*transform: rotate(0.5turn); /* da uma volta (0.5turn == 150graus)*/
+    transform: skewX(20deg); /* inclina a imagem pro lado*/
+    border-radius: 50%;
+}

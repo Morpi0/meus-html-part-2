@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+
+    <script>
+
+        var nome = 'sandro';
+        var num = '1234';
+
+        function confirmarcadastro(){
+            login = document.cd.login.value
+            senha = document.cd.senha.value
+
+            if ((nome==login) && (num==senha))
+                alert   ("seja bem vindo")
+                
+
+            else
+                alert('login ou senha incorretos')
+            
+        }
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" name="cd">
+   
+    <input login: type="text" name="login"><br>
+    <input Senha: type="password" name="senha"><br>
+    <input type="button" value="validar" onclick="confirmarcadastro()"> 
+
+    </form>
+
+</body>
+</html>

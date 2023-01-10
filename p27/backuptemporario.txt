@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title>Questionario Maneiro mlk</title>
+
+    <link rel="stylesheet" href="/index.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+<body>
+
+
+    <form id="formulario" method="post" action="Site2.php">
+    <p> Digite seu nome: </p>
+    <input type="text" name="Text_name" id="Texto" placeholder="Digite seu nome" Autofocus>
+    <br>
+    <p> Digite sua idade: </p>
+    <input type="number" name="Number_idade" id="IDADE" placeholder="Quantos anos você tem?">
+    <br>
+    <br>
+
+    <!-- adicionar o questionario e as perguntas -->
+
+        Quem é mais brabo?
+    <p> Tanjiro ou o menino danramdadam </p>
+    <input type="radio" name="Questao1" value="opt1">Tanjiro
+    <input type="radio" name="Questao1" value="opt2">Danram
+    <br>
+    <p> Kratos(updado no maximo) ou hitman (depois de ter jogado toda a triologia do god of war)</p>
+    <input type="radio" name="Questao2" value="opt1">Kratos
+    <input type="radio" name="Questao2" value="opt2">Hitman
+    <br>
+    <p> Jesus ou Batman (preparado depois de ler a biblia) </p>
+    <input type="radio" name="Questao3" value="opt1">Jesus
+    <input type="radio" name="Questao3" value="opt2">Batman
+    <br>
+    <p> Um maluco com um poder de jogar raios e causar caos e destruição ou um pirata do balacobaco </p>
+    <input type="radio" name="Questao4" value="opt1">Enel
+    <input type="radio" name="Questao4" value="opt2">Luffy
+
+
+    <input type="submit" value="Finalizar">
+
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+<?php
+
+$usuario = '';
+
+$idade_user= '';
+
+$nota = 0;
+
+
+$usuario = $_REQUEST['Text_name'];
+
+$idade_user = $_REQUEST['Number_idade'];
+
+
+echo "Nome: " . $usuario . "<br>";
+echo "Idade: " . $idade_user . " de idade <br>";
+
+///////
+
+$opt1 = $_POST["Questao1"];
+
+$opt2 = $_POST["Questao2"];
+
+$opt3 = $_POST["Questao3"];
+
+$opt4 = $_POST["Questao4"];
+
+if(!isset($opt1) or !isset($opt2) or !isset($opt3) or !isset($opt4)) {
+
+    echo "Nenhuma ou algumas opções não foram escolhidas, volte e escolha disgraça <br><br>";
+
+} else { 
+    
+    echo "Resultados: <br><br>"; 
+}
+
+// colocar sistema de pontos e seus resultados
+
+// opt1 == "opt2" { echo "Errado (Darnramramram RAAAAAAAAAAAAAM!!!) <br>";}
+if ($opt1 == "opt2") {
+    echo "Correta <br>";
+    
+    
+} else {
+    echo "Errado (Darnramramram RAAAAAAAAAAAAAM!!!) <br>";
+}
+
+if ($opt2 == "opt1") {
+    echo "Certa Resposta *começa tocar um phonk brabo* <br>";
+} else {
+    echo "Foda (o hitman é foda então voi deixar passar) <br>";
+}
+
+if ($opt3 == "opt1") {
+    echo "Correta <br>";
+    
+} else {
+    echo "ERRADO, nimguem vence nosso salvador <br>";
+}
+
+if ($opt4 == "opt2") {
+    echo "Correta (Brabo) <br>";
+    
+} else {
+    echo "Damn Daniel, am am am am am am <br>";
+}
+
+
+echo $nota;
+
+
+
+?>

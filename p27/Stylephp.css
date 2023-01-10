@@ -1,0 +1,14 @@
+body {
+    overflow-x: hidden;
+
+    background-color: #428cba;
+}
+
+img {
+    border: 2px solid #275470;
+}
+
+p {
+    font-family: sans-serif;
+    color: #9fd1e2;
+}

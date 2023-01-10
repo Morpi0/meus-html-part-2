@@ -1,0 +1,63 @@
+* {
+    margin: 10px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: #c2d6da;
+    overflow-x: hidden;
+
+
+}
+p {
+    color: #275470;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+img {
+    border: #61889f solid 2px;
+}
+#imagem {
+
+width: 300px;
+height: 500px;
+
+}
+
+
+#Pergunta {
+    font-size: 40px;
+}
+
+
+#Bnt {
+    
+    position: relative;
+    top: 80px;
+    right: 140px;
+
+    width: 100px;
+    height: 40px;
+
+    border: 1px solid #275470;
+
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#Bnt:hover{
+
+    border: 2px solid #428cba;
+
+}
+
+
+.titulos {
+
+    font-family: fantasy;
+
+}
+
+

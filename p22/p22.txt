@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/html2/p22.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site animado p22</title>
+</head>
+<body>
+
+    <div id="box1">
+        <p>sem modificação</p>
+        <img id="imagem"src="/midia/bxrserk-ymate.us.png" alt="imagem não funcionando :(" title="guts brabo B)">
+    </div>
+<br>
+<br>
+    <div id="box2">
+        <p>transform</p>
+        <img id="imagem1"src="/midia/bxrserk-ymate.us.png" alt="imagem não funcionando :(" title="guts brabo B)">
+    </div>
+
+    <div id="box3">
+        <img id="imagem2"src="/midia/bxrserk-ymate.us.png" alt="imagem não funcionando :(" title="guts brabo B)">
+    </div>
+    <br>
+    <div id="box999">
+        <p>scaleX</p>
+        <img id="imagem999"src="/midia/bxrserk-ymate.us.png" alt="imagem não funcionando :(" title="guts brabo B)">
+    </div>
+    <br>
+    <br>
+
+    <div id="box4">
+
+        <img id="imagem3"src="/midia/bxrserk-ymate.us.png" alt="imagem não funcionando :(" title="guts brabo B)">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="box5">
+        <img id="imagem4"src="/midia/bxrserk-ymate.us.png" alt="imagem não funcionando :(" title="guts brabo B)">
+    </div>
+<br>
+<br>
+<a href="/html2/p22-2.html">continua</a>
+    
+    
+</body>
+</html>

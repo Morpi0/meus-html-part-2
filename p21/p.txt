@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>titulo 1</h1> <!-- usado para criar titulos, não pode ser usada para outra função e so pode haver um-->
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+<br>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quod blanditiis vel, eaque quibusdam sit dignissimos animi reiciendis aperiam voluptatibus ullam voluptatum consequuntur quas earum consequatur molestias magnam. Excepturi, quidem. </p>
+<br>
+    <h2> Sub titulo </h2>
+<br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat accusantium dolores consequuntur eos laborum dolorum possimus asperiores magni distinctio! Distinctio cumque aliquid labore quia! Sint iusto totam accusantium inventore qui.</p>
+    <h3> ..... </h3>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magni sequi ipsa cum natus sit voluptatibus nesciunt distinctio! Eligendi, hic! Labore molestiae culpa dolorum quasi corrupti repellendus a nihil? Iure?</p>
+<br>
+    <h4>aaaa</h4>
+    <h5>aaaa</h5>
+    <h6>aaaaa</h6>
+</body>
+</html>
